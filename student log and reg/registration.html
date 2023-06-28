@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>User Registration</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Registration</h1>
+        <form action="dashboard.html" method="post" enctype="multipart/form-data">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" placeholder="Enter username" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter password" required>
+
+            <label for="photo">Passport-size Photo:</label>
+            <input type="file" id="photo" name="photo" accept="image/*" required>
+
+            <label for="citizenship">Citizenship:</label>
+            <input type="file" id="citizenship" name="citizenship" accept="image/*" required>
+
+            <label for="mother's">mother's Name:</label>
+            <input type="text" id="mother's" name="mother's" placeholder="Enter mother's Name" required>
+
+            <label for="Father">Father's Name:</label>
+            <input type="text" id="Father" name="Father" placeholder="Enter Fathers's name" required>
+
+
+            <button type="submit">Register</button>
+        </form>
+        <p>Already have an account? <a href="login.html">Login here</a></p>
+    </div>
+</body>
+</html> 

@@ -1,0 +1,80 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+/* login */
+.bttn{
+    font-size: 16px;
+    line-height: 23px;
+    padding: 10px 30px 14px;
+    border-radius: 25px;
+    text-decoration: none;
+    background-color: #1F3C88;
+    color:#efefef;
+}
+.bttn:hover{
+    background-color: #2e4fa3;
+   color:#ffffff;
+}
+input{
+    width:100%;
+    height: 36px;
+}
+/* login */
+
+/* index */
+nav{
+    height:100px;
+    background-color: #1F3C88;
+}
+.nav-flex{
+    height:120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0 20px;
+}
+.nav-flex .logo img{
+    height:60px;
+}
+.nav-menu a{
+     color:#ffffff;
+     text-decoration: none;
+     font-size:16px;
+     padding: 0 15px;
+}
+.search input{
+    width:220px;
+    height:32px;
+    border-radius:3px;
+    padding:10px;
+    border:0;
+    outline: none;
+}
+.menu-flex{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.menu-left{
+    width:300px;
+    color:#ffffff;
+    background-color: #000000;
+}
+.menu-left a{
+    text-decoration: none;
+    color:#ffffff;
+    display: block;
+    font-size: 18px;
+    line-height: 32px;
+    padding:0 15px;
+}
+
+/* index */
+
+.card{
+ width:600px;
+ background-color: #ffffff;
+ padding:30px 100px;
+}

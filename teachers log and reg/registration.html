@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Teacher Registration</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Teacher Registration</h1>
+        <form action="dashboard.html" method="post" enctype="multipart/form-data">
+            <div style="padding:12px 0;">
+            <label for="teacherId">Teacher ID:</label>
+            <input type="text" id="teacherId" name="teacherId" placeholder="Enter teacher ID" required>
+        </div>
+<div style="padding:12px 0;">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter name" required>
+        </div>
+        <div style="padding:12px 0;">
+            <label for="citizenship">Citizenship:</label>
+            <input type="file" id="citizenship" name="citizenship" accept="image/*" required>
+        </div>
+        <div style="padding:12px 0;">
+            <label for="photo">Photo:</label>
+            <input type="file" id="photo" name="photo" accept="image/*" required>
+        </div>
+        <div style="padding:12px 0;">
+            <label for="panNumber">PAN Number:</label>
+            <input type="text" id="panNumber" name="panNumber" placeholder="Enter PAN number" required>
+        </div>
+           <div style="padding:12px 0;">
+            <strong>Teaching Categories</strong>
+        </div>
+            <div>
+                <input type="radio" id="primary" name="teachingCategory" value="Primary" required>
+                <span for="primary">Primary Level</span>
+                
+           
+          <br>
+                <input type="radio" id="secondary" name="teachingCategory" value="Secondary" required>
+                <span for="secondary">Secondary Level</span>
+               
+            </div>
+<div style="padding: 12px 0;">
+            <button type="submit">Register</button>
+        </div>
+        </form>
+        <p>Already have an account? <a href="login.html">Login here</a></p>
+    </div>
+</body>
+</html>
