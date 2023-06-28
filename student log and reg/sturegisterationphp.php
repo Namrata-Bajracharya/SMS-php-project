@@ -20,6 +20,8 @@ $mothers_profession =$_POST['motherprofession'];
 $mothers_mobile_number =$_POST['mothermobileno'];
 $phone_number = $_POST['phonenumber'];
 
+
+
 $sql = "INSERT INTO students (name, age, address, fathers_name, fathers_profession, fathers_mobile_number,mothers_name,mothers_profession,mothers_mobile_number,phone_number)
 VALUES ('$name', '$age', '$address', '$fathers_name', '$father_profession', '$fathers_mobile_number', '$mothers_name', '$mothers_profession','$mothers_mobile_number','$phone_number')";
 
